@@ -1,0 +1,407 @@
+* {
+padding: 0;
+margin: 0;  
+}
+
+.section_glowna1{
+  background-image: url("images/background.jpg");
+  background-size: contain, cover;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.logo_1{
+  width: 10%;
+  height: auto;
+  cursor: cell;
+}
+
+nav{
+ display:inline-block;
+}
+
+nav ul li{
+  display:inline-block;
+  margin: 5px 20px;
+  position: relative;
+  left: 335px;
+  bottom: 100px;
+  font-size: 30px;
+  font-family: "Bangers" ;
+  color: #89C4E1;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav ul{
+  margin: 5px 0 0 0;
+}
+
+
+nav ul li::after{
+  background: pink;
+  content: " ";
+  width: 0%;
+  height: 2px;
+  display: block;
+  transition: 2s;
+  margin: auto;
+}
+
+nav ul li:hover{
+  color: red;
+  transition: 2s;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.section_glowna2{
+  background-image: linear-gradient(180deg, #FF97C1, #FF5858, #E0144C);
+  width: 100%;
+  height: 150vh;
+}
+
+.section_dyskografia1{
+  background-image: url("images/płyty_winylowe_2.jpg");
+  width: 100vw;
+  height: 35vh;
+}
+
+.section_dyskografia2{
+  background: linear-gradient(77deg, #C780FA, #B9E0FF, #E3ACF9, #86E5FF, #F3CCFF, #5BC0F8 );
+  width: auto;
+  height: 177vh; 
+}
+
+.albumy{
+  display: flex;
+  font-family: "Assistant"; 
+}
+
+.okladka{
+  height: 225px;
+  width: 225px;
+}
+
+.album{
+  height: 225px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.napis_album{
+  color: white;
+  border: solid; 
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.tour_photo_1{
+  height: auto;
+  width: 30cm;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.platforma{
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+  left: 13cm;
+  margin: 80px 20px;
+}
+ 
+.section_czlonkowie1{
+  background-image: url("images/tło_1.png");
+  width: auto;
+  height: 35vh;
+}
+
+.section_czlonkowie2{
+ background: linear-gradient(187deg, #B5F1CC, #E5FDD1, #C9F4AA, #FCC2FC);
+ width: auto;
+ height: 920vh;
+}
+ 
+.napis_czlonkowie{
+ color: orange;
+ border: solid; 
+ text-align: center;
+ font-size: 30px;
+ padding: 10px;  
+}
+
+.kolaz_anthony{
+  float: left;
+  display: flex;
+  position: relative;
+  height: 18cm;
+  width: 20cm;
+  padding: 1cm;
+  top: 1cm;
+  
+}
+
+.imie_Anthony{
+  border: solid;
+  font-size: 27px;
+  right: 3cm;
+  top: 0.5cm;
+  display: inline;
+  position: relative;
+}
+
+.anthony_opis{
+  font-size: 20.2px;
+  display: inline-block;
+  position: relative;
+  margin-left: 22cm;
+  margin-right: 1cm;
+  bottom: 18cm;
+}
+
+.kolaz_john{
+  display: flex;
+  float: right;
+  position: relative;
+  height: 18cm;
+  width: 18cm;
+  padding: 1cm;
+  bottom: 12cm;
+}
+
+.imie_john{
+  border-style: solid;
+  font-size: 27px;
+  left: 18cm;
+  bottom: 13cm;
+  position: relative;
+  display: inline;
+}
+
+.john_opis{
+  font-size: 20.2px;
+  bottom: 12cm;
+  position: relative;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+.albumy_john{
+  display: flex;
+  position: relative;
+  bottom: 11cm;
+}
+
+.okladka_john{
+  height: 225px;
+  width: 225px;
+}
+
+.album_john{
+  height: 225px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.kolaz_flea{
+  float: left;
+  height: 18cm;
+  width: 20cm;
+  display: flex;
+  position: relative;
+  margin-left: 1cm;
+  bottom: 7cm;
+}
+
+.imie_flea{
+  display: inline-block;
+  border-style: solid;
+  position: relative; 
+  text-align: right;
+  font-size: 27px;
+  bottom: 8.5cm;
+  right: 1cm;
+}
+
+.flea_opis{
+  font-size: 20.2px;
+  position: relative;
+  margin-left: 22cm;
+  margin-right: 1cm;
+  bottom: 8cm;
+}
+
+.kolaz_chad{
+  display: flex;
+  float: right;
+  position: relative;
+  height: 18cm;
+  width: 18cm;
+  bottom: 5cm;
+  margin-right: 1cm;
+}
+
+.chad_opis{
+  font-size: 20.2px;
+  bottom: 6cm;
+  position: relative;
+  margin-left: 1cm;
+  margin-right: 20cm;
+}
+
+.imie_chad{
+  display: inline-block;
+  border-style: solid;
+  position: relative; 
+  text-align: left;
+  font-size: 27px;
+  bottom: 6.5cm;
+  left: 18.5cm;
+}
+
+.zdjecie_josh{
+  width: 17cm;
+  height: 10cm;
+  margin: 1cm;
+}
+
+.imie_josh{
+  display: inline-block;
+  border-style: solid;
+  position: relative; 
+  font-size: 27px;
+  bottom: 13cm;
+  left: 7.5cm;
+}
+
+.josh_opis{
+  font-size: 20.2px;
+  position: relative;
+  margin-right: 21cm;
+  bottom: 12cm;
+  left: 19cm;  
+  
+}
+
+.zdjecie_hilel{
+  width: 17cm;
+  height: 10cm;
+  margin: 1cm;
+  bottom: 9.5cm;
+  position: relative;
+}
+
+.imie_hilel{
+  display: inline-block;
+  border-style: solid;
+  position: relative; 
+  font-size: 27px;
+  bottom: 21.7cm;
+  right: 11cm;
+}
+
+.hilel_opis{
+  font-size: 20.2px;
+  position: relative;
+  bottom: 21cm;
+  left: 19cm;
+  margin-right: 21cm;
+}
+
+.zdjecie_dave{ 
+  width: 17cm;
+  height: 10cm;
+  margin: 1cm;
+  position: relative;
+  bottom: 19cm;
+}
+.imie_dave{
+  display: inline-block;
+  border-style: solid;
+  position: relative; 
+  font-size: 27px;
+  bottom: 31.5cm;
+  right: 11.5cm;
+}
+
+.dave_opis{
+  font-size: 20.2px;
+  position: relative;
+  bottom: 29cm;
+  left: 19cm;
+  margin-right: 21cm;
+}
+
+.zdjecie_jack{
+  width: 17cm;
+  height: 10cm;
+  margin: 1cm;
+  position: relative;
+  bottom: 25cm;
+}
+.imie_jack{
+  display: inline-block;
+  border-style: solid;
+  position: relative; 
+  font-size: 27px;
+  bottom: 37cm;
+  right: 11cm;
+}
+.jack_opis{
+  font-size: 20.2px;
+  position: relative;
+  margin-right: 21cm;
+  bottom: 34cm;
+  left: 19cm;
+}
+
+.platforma_czlonkowie{
+  display: inline-block;
+  position: relative;
+  margin: 80px 20px;
+  bottom: 31cm;
+  left: 13cm;
+}
+
+.section_glowna3{
+  min-width: 100vw;
+  min-height: 100vh;
+  
+}
+
+.cantstop{
+  height: 100%;
+  width: 100%;
+}
+
+.licznik{
+  position: relative;
+  top: 4cm;
+  font-size: 1cm;
+  left: 10cm;
+}
+
+.cdrk{
+  font-size: 1cm;
+  top: 2cm;
+  
+}
+
+}
